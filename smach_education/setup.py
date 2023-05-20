@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'simple_sm = smach_education.simple_sm:main'
         ],
     },
 )
